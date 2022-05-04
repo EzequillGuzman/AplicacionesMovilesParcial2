@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctoresBuscarActivity">
+
+    <TextView
+        android:id="@+id/doc_buscar_tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/doc_buscar_tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:layout_below="@id/doc_buscar_tv_titulo"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/doc_buscar_et_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_buscar_tv_subtitulo"
+        android:hint="Codigo"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_marginTop="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/doc_buscar_btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_below="@id/doc_buscar_et_codigo"
+        />
+
+    <EditText
+        android:id="@+id/doc_buscar_et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doc_buscar_btn_buscar"
+        android:text="Nombre"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/doc_buscar_et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_buscar_et_nombre"
+        android:text="Apellido"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/doc_buscar_et_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_buscar_et_apellido"
+        android:text="Direccion"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:id="@+id/doc_buscar_et_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_buscar_et_direccion"
+        android:text="Telefono"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

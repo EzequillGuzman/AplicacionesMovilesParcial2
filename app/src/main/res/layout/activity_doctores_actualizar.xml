@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctoresActualizarActivity">
+
+    <TextView
+        android:id="@+id/doc_modificar_tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:text="Ejemplo MYSQL"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/doc_modificar_tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificar Doctores"
+        android:layout_below="@id/doc_modificar_tv_titulo"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/doc_modificar_ed_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_tv_subtitulo"
+        android:hint="Codigo"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/doc_modificar_btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_ed_codigo"
+        android:text="Buscar"
+
+        />
+    <EditText
+        android:id="@+id/doc_modificar_ed_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_btn_buscar"
+        android:hint="Nombre"
+        android:gravity="center"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/doc_modificar_ed_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_ed_nombre"
+        android:hint="Apellido"
+        android:gravity="center"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/doc_modificar_ed_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_ed_apellido"
+        android:hint="Direccion"
+        android:gravity="center"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/doc_modificar_ed_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_ed_direccion"
+        android:hint="Telefono"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/doc_modificar_btn_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doc_modificar_ed_telefono"
+        android:text="Guardar Cambios"
+
+        />
+</RelativeLayout>

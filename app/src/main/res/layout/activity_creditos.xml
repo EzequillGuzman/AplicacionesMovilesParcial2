@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Creditos">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USAC-EFPEM"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carné:  201710264"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOISÉS EZEQUIEL PAZ GUZMÁN"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="193dp"
+        android:layout_height="141dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="245dp"
+        tools:srcCompat="@mipmap/ic_launcher_foreground" />
+</androidx.constraintlayout.widget.ConstraintLayout>
